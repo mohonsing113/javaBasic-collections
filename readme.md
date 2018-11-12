@@ -77,3 +77,27 @@ You could run unit tests with the help of IntelliJ. But it is also possible to r
 
 If you just want to build your code without running test. Please use `./gradlew build -x test
 `
+
+* ArrayTest
+1. implement a stack
+1. methods not implemented
+1. implemented  push() pop() ensureCapacity()
+1. NO
+
+* should_go_through_an_iterator
+1. use of Iterator
+1. methods not implemented
+1. implemented with Iterator
+1. NO
+
+* should_create_a_sequence_without_putting_all_items_into_memory
+1. implemented a Iterator
+1. methods not implemented
+1. implemented next() hasNest() of Iterator
+1. NO
+
+* should_predict_linked_list_operation_result
+1. know the use of Iterator methods
+1. it expected i don't know
+1. Amy next() is Bob, add Juliet then previous() which means Bob again, by remove() the next Juliet will be removed
+1. NO

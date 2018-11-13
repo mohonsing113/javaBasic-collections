@@ -90,7 +90,7 @@ class CollectionsTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final List<Integer> expected = Arrays.asList(0, 0, 0);
+        final List<Integer> expected = Arrays.asList(0,1,2,10,11);
         // --end-->
 
         assertIterableEquals(expected, integers);

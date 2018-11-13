@@ -101,3 +101,15 @@ If you just want to build your code without running test. Please use `./gradlew 
 1. it expected i don't know
 1. Amy next() is Bob, add Juliet then previous() which means Bob again, by remove() the next Juliet will be removed
 1. NO
+
+* should_generate_distinct_sequence_on_the_fly
+1. create methods for iterator
+1. it expected empty
+1. implemented hasNext that only return unreturned value;
+1. with just the hasNext and next methods, I can't do it without knowing elements count. And with random index in next(), the wrost case is only one element will be returned. Looking for best sulotion.
+
+* should_reflects_back_to_original_list_for_sub_range
+1. usage of sublist mehod
+1. it expected 000
+1. remove element from index 3 to 10
+1. NO

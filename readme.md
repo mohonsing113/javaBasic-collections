@@ -106,7 +106,7 @@ If you just want to build your code without running test. Please use `./gradlew 
 1. create methods for iterator
 1. it expected empty
 1. implemented hasNext that only return unreturned value;
-1. with just the hasNext and next methods, I can't do it without knowing elements count. And with random index in next(), the wrost case is only one element will be returned. Looking for best sulotion.
+1. with random index in next(), the wrost case is only one element will be returned. Looking for best sulotion.
 
 * should_reflects_back_to_original_list_for_sub_range
 1. usage of sublist mehod
